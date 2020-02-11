@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
 
 public class RegistrationPage {
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(xpath = "//input[@id='email_field']")
     private WebElement emailField;
